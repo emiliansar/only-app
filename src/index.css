@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'pt_sans';
+    src: url('/fonts/PTSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pt_sans';
+    src: url('/fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('/fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  font-family: 'pt_sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/* .mySwiper {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.slide-content h2 {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.slide-content p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #333;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #333;
+} */
