@@ -62,3 +62,7 @@ src/
 ├── App.jsx
 └── main.jsx
 db.json
+
+## Как всё установить?
+
+Просто напиши в консоль - yarn install
